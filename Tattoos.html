@@ -1,0 +1,237 @@
+<!DOCTYPE html> 
+
+<html> 
+ <head> 
+ <link rel="stylesheet" href="style.css"> 
+ <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
+ <meta name="tattoo" content="width=device-width, initial-scale=1">
+ <style> 
+ <style>
+* {box-sizing: border-box}
+body {font-family: 'Alegreya Sans SC', sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+				<div class="nav"> 
+				<a href="index.html"> <img src="logowhiteblank.png" class="logo" alt="logo"> </a> 
+				<a href="about.html"> <img src="img_about.png" class="about" alt="about"> </a> 
+				<a href="Tattoos.html"> <img src="img_extras.png" class="extras" alt="extras"> </a> 
+				<a href="location.html"> <img src="img_location.png" class="location" alt="location"> </a> 
+				<a href="book.html"> <img src="img_book.png" class="book"> </a>
+				
+				
+				</div> 
+				
+<div class="backgroundtattoo"> 
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img_tattooone.jpg" style="width:100%">
+  <div class="text">Snake Tattoo</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img_tattootwo.jpg" style="width:100%">
+  <div class="text">Hands Tattoo</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_tattoothree.jpg" style="width:100%">
+  <div class="text">Eye Tattoo</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+</div>
+
+
+
+
+ 	<div class="footer">  
+	
+
+			<div class= "address">
+			<h3> Address</h3>
+ 
+			<p><h5> The Globe Theatre,</p> 
+			<p> George's Street,</p>
+			<p>Dublin City Centre,</p>
+			<p> D13552C </h5></p>
+			
+</div> 
+	
+		<div class="contact">
+			<h3> Contact: </h3> 
+
+		<p><h5> Tel: 01 453 2998 </p>
+		<p> Email: info@macbethopera.com <p> 
+
+</div> 
+
+			<div class="terms"> 
+					<h3> Terms & Conditions</h3> 
+
+				<h5> <p>The Macbeth Logo is trademarked and subject to copyright laws.</p>
+				<p> Macbeth the Opera is registered to Birch Management Ltd. </p> 
+				<p> All rights reserved 2020 </p>
+
+</div> 
+
+			<div class="follow"> 
+		
+			<h3> Follow us on Social media: </h3> 
+
+			<p> <a href="https://www.facebook.com/Macbeth.The.Movie/"> <img src="img_facebook.png" class="icons" alt="facebook" > </a></p>
+			<p> <a href="https://twitter.com/hashtag/macbeth?lang=en"> <img src="img_twitter.png" class="icons" alt="twitter"></a> </p> 
+			<p> <a href="https://www.instagram.com/explore/tags/macbeth/?hl=en"> <img src="img_instagram.png" class="icons" alt="instagram"></a> </p>
+		<p>	<a href="https://www.youtube.com/watch?v=K5TpecxZL88"><img src="img_youtube.png" class="icons" alt="youtube"> </a> </p>
+
+</div>
+
+
+
+</div> 
+ 
+ 
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 

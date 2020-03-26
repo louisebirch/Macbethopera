@@ -1,0 +1,465 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.nav {
+background-color:#181835; 
+width:100%;
+height:100px;
+border-color:white;
+margin-left:5px;
+margin-right:5px;
+margin-top:5px;
+margin-bottom:5px;
+padding-left:5px;
+padding-right:5px; 
+ overflow: hidden;
+	
+} 
+
+@media screen and (max-width:60px) {
+.nav .footer  {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+.logo { 
+height:80px; 
+width:15%; 
+float: left; 
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-top:10px; 
+opacity: 0.3;
+
+
+} 
+
+
+img:hover {
+  opacity: 1.0;
+}
+
+.extras{ 
+height:65px; 
+width:12%; 
+float: right; 
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-top:10px;
+opacity: 0.3;
+display:flex; 
+
+
+
+} 
+
+.about { 
+height:65px; 
+width:12%; 
+float: right; 
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-top:10px;
+opacity: 0.3;
+
+
+} 
+
+.location{ 
+height:65px; 
+width:12%; 
+float: right; 
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-top:10px;
+opacity: 0.3;
+
+
+} 
+
+
+.book{ 
+height:65px; 
+width:12%; 
+float: right; 
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-top:10px; 
+opacity: 0.3;
+
+
+} 
+
+.hero { 
+float:clear;
+border-color:white;
+height:600px;
+width:100%;
+background-color:#181835; 
+margin-left:5px;
+margin-right:5px;
+margin-top:5px;
+margin-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+
+
+
+
+} 
+
+.gif { 
+display:block;
+width:50%; 
+height:100%;
+float:center;
+margin-left:auto;
+margin-right:auto;
+
+} 
+
+.footer { 
+float:clear;
+background-color:#181835; 
+width:100%;
+height:200px;
+border-color:white;
+margin-left:5px;
+margin-right:5px;
+margin-top:5px;
+margin-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+
+ 
+font-family: 'Alegreya Sans SC', sans-serif; 
+
+
+} 
+
+.address{ 
+width: 20%; 
+height:100%;
+text-align:center; 
+padding: 3px; 
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-top:10px; 
+position: relative;
+ right:30px;
+float:right;
+
+} 
+
+.contact { 
+width: 20%; 
+height:100%;
+text-align:center; 
+padding: 3px; 
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-top:10px; 
+position: relative;
+ right:30px;
+float:right;
+
+
+} 
+
+.terms{ 
+width: 20%; 
+height:100%;
+text-align:center; 
+padding: 3px; 
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-top:10px; 
+position: relative;
+ right:30px;
+float:right;
+
+}
+
+.follow { 
+width: 25%; 
+height:100%;
+text-align:center; 
+padding: 3px; 
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-top:10px; 
+position: relative;
+ right:30px;
+float:right
+}
+
+.icons{
+width: 15%; 
+height:18%;
+display:block;  
+padding: 3px; 
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+margin-top:10px; 
+float:left;
+opacity: 0.5;
+}
+	
+
+img:hover {
+  opacity: 1.0;
+}
+
+
+
+.booknow{ 
+background-image: url("img_snakes.png"); 
+background-color:white;
+background-repeat:no-repeat;
+ background-size: cover;
+height:900px;
+width:100%; 
+float: clear;
+margin-left:5px;
+margin-right:5px;
+margin-top:5px;
+margin-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+} 
+
+.bookingbox {
+background-color:white;	 
+opacity:0.1%;
+float:center; 
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+width:75%; 
+height:900px; 
+padding:3px;
+font-size:30pt;
+}
+
+
+:hover {
+  opacity: 1.0;
+}
+
+.days{
+float:left; 
+Height: 500px; 
+Width:33.3%; 
+font-size:16pt; 
+font-family:'Alegreya Sans SC', sans-serif; 
+text-align:left; 
+line-height: 50px; 
+background-color:rgba(59, 66, 209, 0.2)
+	
+} 
+
+.time{
+float:left; 
+Height: 500px; 
+Width:33.3%; 
+font-size:16pt; 
+font-family:'Alegreya Sans SC', sans-serif; 
+text-align:left; 
+line-height: 50px; 
+background-color:rgba(214, 175, 54, 0.2)	
+
+} 
+
+.bookingbutton{ 
+float:left; 
+Height: 500px; 
+Width:33.3%; 
+font-size:16pt; 
+font-family:'Alegreya Sans SC', sans-serif; 
+text-align:left; 
+line-height: 50px; 
+background-color:rgba(95, 35, 181, 0.2)
+
+ 
+}
+
+h1 {
+color:white;	
+font-family: 'Alegreya Sans SC', sans-serif; 
+font-weight:bold; 
+text-align:center; 
+
+
+} 
+ 
+
+
+h2 { 
+color:#181835; 
+font-family: 'Alegreya Sans SC', sans-serif; 
+font-weight:bold; 
+text-align:center; 
+
+
+} 
+
+h3 { 
+color: white;
+font-family: 'Alegreya Sans SC', sans-serif;  
+text-align:center; 
+ 
+} 
+
+h4{ 
+colour:#181835; 
+font-family: 'Alegreya Sans SC', sans-serif; 
+font-weight:regular; 
+text-align:center; 
+font-size: 12pt;
+
+
+} 
+
+
+
+h5{
+color: white; 
+
+} 
+
+.aboutpage { 
+background-image: url("img_bottlethree.png"); 
+background-color:white;
+background-repeat:no-repeat;
+ background-size: cover;
+height:900px;
+width:100%; 
+float:clear; 
+font-size:26pt;
+margin-left:5px;
+margin-right:5px;
+margin-top:5px;
+margin-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+
+
+
+} 
+
+.aboutbox{ 
+background:rgba( 40,34,55, 0.6); 
+float:center; 
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+width:90%; 
+height:900px; 
+padding:2px;
+} 
+
+.script{ 
+font-family:font-family: 'Homemade Apple', cursive;
+color:white; 
+font-size:18pt;
+
+
+} 
+
+
+
+
+.locationbackground{ 
+background-image: url("img_leaves.png"); 
+background-color:white;
+background-repeat:no-repeat;
+ background-size: cover;
+height:900px;
+width:100%; 
+float:clear; 
+margin-left:5px;
+margin-right:5px;
+margin-top:5px;
+margin-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+
+
+} 
+
+.locationbox{ 
+Height:900px; 
+width:95%; 
+float:center; 
+background:rgba( 40,34,55, 0.4); 
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+padding:2px;
+font-size:16pt;
+font-weight:light; 
+
+
+
+} 
+
+.mapimage{ 
+float:center; 
+display: block;
+margin-top:auto; 
+margin-bottom:auto; 
+margin-left:auto; 
+margin-right:auto; 
+width:80%; 
+height:500px; 
+padding:2px;
+opacity: 1.0;
+
+
+} 
+
+
+img:hover {
+  opacity: 0.6;
+}
+
+
+.backgroundtattoo{ 
+background-image: url("img_sword.png"); 
+background-color:white;
+background-repeat:no-repeat;
+ background-size: cover;
+height:900px;
+width:100%; 
+float:clear; 
+margin-left:5px;s
+margin-right:5px;
+margin-top:5px;
+margin-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+
+
+
+} 
+
+
+
+
+
+
+
